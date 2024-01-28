@@ -3,10 +3,10 @@ import 'port:package:flutter/flutter.dart';
 import 'port:package:DeskCert/models/training_module_model.dart';
 import 'port:package:DeskCert/widgets/custom_button.dart';
 
-import 'port:package:DeskCert/widgets/custom_card.dart';
+import 'package:DeskCert/widgets/custom_card.dart';
 
 class TrainingModuleScreen extends StatelessWidget {
-  @override 
+  @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
